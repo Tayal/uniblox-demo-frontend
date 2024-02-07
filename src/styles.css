@@ -2,11 +2,3 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    background: greenyellow;
-    margin: 0;
-    padding: 0;
-}
