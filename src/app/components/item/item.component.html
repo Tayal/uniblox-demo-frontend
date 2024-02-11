@@ -3,7 +3,8 @@
         <img src="https://cdn.icon-icons.com/icons2/1678/PNG/512/wondicon-ui-free-parcel_111208.png">
     </div>
     <div class="itemfooter">
-        <h3>Item 1</h3>
-        <button>Add to Cart</button>
+        <h3>{{ item.name }}</h3>
+        <h3>Rs. {{ item.rate }}</h3>
+        <button (click)="addToCart()">Add to Cart</button>
     </div>
 </div>

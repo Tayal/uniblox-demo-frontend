@@ -1,0 +1,15 @@
+<div class="cartcontainer">
+    <div class="itemcontainer">
+        <p *ngFor="let item of cart.entries()">{{ item[1].name + "x" + item[1].count + " = ₹" + item[1].count*item[1].rate }}</p>
+        <p>{{ "Total Amount = ₹" + getTotal() }}</p>
+    </div>
+    <div class="checkout">
+        <p>
+            <input type="text" name="text" [(ngModel)]="discount" id="text" placeholder="Discount Code" />
+            <button type="submit" (click)="checkDiscount()">Check</button>
+        </p>
+        <p>{{ getTotal()>0&&validDiscount ? "10% Discount applied!" : "No Discount Applied." }}</p>
+        <p>{{ "Total Payable = ₹" + (validDiscount ? 0.9*getTotal() : getTotal()) }}</p>
+        <button (click)="checkOut()">Checkout</button>
+    </div>
+</div>

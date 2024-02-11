@@ -1,0 +1,27 @@
+.cartcontainer {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+.itemcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    margin: 0.1rem;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block: 1rem;
+}
+
+button {
+    margin-block: 1rem;
+}

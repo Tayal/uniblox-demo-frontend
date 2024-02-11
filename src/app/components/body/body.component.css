@@ -2,6 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-inline: 20rem;
+    margin-inline: 10%;
     margin-block: 2rem;
 }

@@ -6,7 +6,8 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    background: yellowgreen;
+    background: black;
+    color: white;
     margin: 0;
     padding: 0;
     border-bottom: 2px solid gray;
@@ -27,5 +28,5 @@ button {
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid black;
-    background: whitesmoke;
+    background: gainsboro;
 }
